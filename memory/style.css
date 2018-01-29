@@ -1,0 +1,86 @@
+body {
+background-color:#f2f2f2;
+color:#3D2910;
+font-family:sans-serif;
+letter-spacing: 0.05em;
+font-size: 1.2em;
+font-weight: bold;
+padding-left: 4.7%;
+padding-right: 2.35%;
+}
+
+h1{
+	font-size:1.5em;
+	font-weight: bolder;
+	letter-spacing: 0.08em;
+}
+
+#game {
+	width: 800px;
+	margin:0 auto;
+	
+}
+#direction{
+	margin: 3% auto;
+	font-weight: bolder;
+	letter-spacing: 0.08em;
+}
+.card {
+	width:200px;
+	height:200px;
+	display:inline-block;
+	background:#3D2910 ;
+	margin: 10px;
+	box-sizing: border-box;
+	border-radius: 10%;
+	box-shadow: 5px 5px 0 #1E170E;
+	transition: transform 0.3s;
+	transform-style: preserve-3d;
+    transform-origin: 50% 50%;
+}
+.cardShow{
+	transform:rotateY(180deg);
+	
+}
+.card img {
+	width:100%;
+	height:100%;
+	border-radius: 10%;
+	border: 2px solid #3D2910;
+	box-sizing: border-box;
+}
+.match{
+	opacity: 0.3;
+	transition: opacity 0.3s;
+}
+
+
+/*win*/
+.win {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.win h2 {
+  font-size: 5em;
+ 	margin: 2% auto;
+	font-weight: bolder;
+	letter-spacing: 0.08em;
+}
+.win h2 {
+  color: #89A236;
+}
+.win {
+  opacity: 0;
+  transition: opacity 0.4s;
+  pointer-events: none;
+}
+.winShow {
+  opacity: 0.9;
+  transition: opacity 0.4s;
+  pointer-events: none;
+}
