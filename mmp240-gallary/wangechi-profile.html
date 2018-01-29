@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>tablet</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+  
+    </head>
+    <body>
+        
+            <!-- nav -->
+            <div id="nav">
+                <ul class="topnav" id="myTopnav">
+                    <li><a class="active" href="index.html">home</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:2.25em;" onclick="myFunction()">&#9776;</a>
+                    </li>
+                </ul>
+            </div><!-- end of nav -->
+            <div class="contianer">
+            <h1>Wangchi-Mutu</h1>
+            <div class="slide-content slide-section">
+          <img class="mySlides" src="images/wangechi-mutu/wangechi-mutu-portrait.jpg" alt="artwork" style="width:100%">
+          <img class="mySlides" src="images/wangechi-mutu/wangechi-mutu-homeward-bound-2009.jpg" alt="artwork" style="width:100%">
+          <img class="mySlides" src="images/wangechi-mutu/wangechi-mutu-family-tree-2012.jpg" alt="artwork" style="width:100%">
+          <img class="mySlides" src="images/wangechi-mutu/wangechi-mutu-non-je-ne-regrette-rein-2007.jpg" alt="artwork" style="width:100%">
+          <img class="mySlides" src="images/wangechi-mutu/wangechi-mutu-the-screamer-island-dreamer-2014.jpg" alt="artwork" style="width:100%">
+          <img class="mySlides" src="images/wangechi-mutu/wangechi-mutu-you-are-my-sunshine-2015.jpg" alt="artwork" style="width:100%">
+          <img class="mySlides" src="images/wangechi-mutu/wangechi-mutu-my-strength-lies-2006.jpg" alt="artwork" style="width:100%">
+          <img class="mySlides" src="images/wangechi-mutu/wangechi-mutu-once-upon-a-time-she-said-2013.jpg" alt="artwork" style="width:100%">
+        </div>
+            <div class="main-content">
+            <p>Wangechi Mutu (born 22 June 1972 in Nairobi, Kenya) is an artist and sculptor who lives and works in Brooklyn, New York. Mutu is considered by many to be one of the most important contemporary African artists of recent years, and her work has achieved much global acclaim.</p> 
+            
+             <p>Wangechi Mutu (born 22 June 1972 in Nairobi, Kenya) is an artist and sculptor who lives and works in Brooklyn, New York. Mutu is considered by many to be one of the most important contemporary African artists of recent years, and her work has achieved much global acclaim.</p> 
+                
+            <p>She participated in the 2008 Prospect 1 Biennial in New Orleans and the 2004 Gwangju Biennale in South Korea. Her work has been featured in major exhibitions including Greater New York at the P.S.1 Contemporary Art Center and the Museum of Modern Art in New York, Black President: The Art and Legacy of Fela Anikulapo-Kuti at the New Museum of Contemporary Art in New York and the Barbican Centre in London, and USA Today at the Royal Academy in London.</p>
+                
+            <p>On 23 February 2010, Wangechi Mutu was honoured by Deutsche Bank as their first "Artist of the Year". The prize included a solo exhibition at the Deutsche Guggenheim in Berlin. Titled My Dirty Little Heaven, the show travelled in June 2010 to the Wiels Center for Contemporary Art in Forest, Belgium.</p>
+                
+            <p>She is represented by Barbara Gladstone in New York, Susanne Vielmetter Los Angeles Projects in Los Angeles and Victoria Miro Gallery in London.</p>
+            </div>
+        
+        </div><!-- end of container -->
+
+            <!--footer-->
+            <footer>
+                   <hr>
+                <p>Copyright &#169; 2016 </p>
+            </footer>
+
+       <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 1000); // Change image every 2 seconds
+        }
+        </script>
+
+
+ </body>
+</html>

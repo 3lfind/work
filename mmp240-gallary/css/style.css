@@ -1,0 +1,435 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+     letter-spacing: 0.05em;
+    margin:0;
+    background-color:#F7F2E6;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#3D2910;
+    position:absolute;
+    top:0;
+    width:100%;
+}
+/* Float the list items side by side */
+ul.topnav li {
+    float: left;
+    margin: 0 2.352941176471% 0 4.705882352941% ;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #F7F2E6;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: serif;
+    transition: 1.0s;
+
+}
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+    background-color: #3D2910;
+}
+
+ul.topnav li.icon {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height:22em;
+}
+.img-container img{
+    height: 15em;
+}
+h1, h2,.heading, footer p{
+    
+    padding-left: 4.705882352941%;
+    padding-right: 2.352941176471%;
+    color:#3D2910;
+    
+}
+h1{
+    font-size: 2em;
+    font-family:serif;
+   margin-top:20%; 
+    color:#3D2910;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: bolder;   
+}
+
+h3,h2{
+    font-weight: bolder;
+      text-transform: uppercase;
+    color: #3D2910;
+    font-family: serif;
+}
+
+
+.main-content p {
+    padding: 0 4.705882352941%;
+    color: black;
+    font-weight: bold;
+    
+}
+footer p{
+    font-size: .75em;
+}
+.column{
+    width:42%;
+    float:left;
+    margin:0 2.352941176471% 0 4.705882352941%;
+}
+
+.right{
+    margin:0;
+}
+footer{
+    width:100%;
+    float:left;
+    padding-top: 7%;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 38em;
+  height: auto;
+  position: relative;
+  margin: auto;
+
+}
+.slide-content {
+    max-width: 35em;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+    
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size:1.8em;
+  transition: 0.6s ease;
+  border-radius: 2%;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 2%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1em;
+  font-weight: bolder;
+  padding: 2%;
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 0.75em;
+  font-weight: bolder;
+  padding:2%;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height:.7em;
+  width: .7em;
+  margin: 0 2%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+ .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+@keyframes fade {
+  from {
+      opacity: .4
+    } 
+  to {
+      opacity: 1
+    }
+}
+
+
+/*about*/
+.about-column {
+	margin: 0 2% ;
+  	width:100%;
+  	padding-bottom: 5%;
+
+	column-count: 1;
+     -webkit-column-gap:3em; /* Chrome, Safari, Opera */
+    -moz-column-gap: 3em; /* Firefox */
+    column-gap: 3em;
+
+}
+#about img{
+    height: 23em;
+    width: 100%;
+    margin: auto;
+}
+/*contact*/
+.col-50 {
+    width: 100%;
+	margin: 0;
+    padding: 0;
+}
+
+iframe{
+    
+    width:80%;
+    height:15em;
+    border: 0;
+    margin:2%;
+
+}
+ 
+.contact-column {
+	margin: 0 2% ;
+  	width:100%;
+  	padding-bottom: 5%;
+
+	column-count: 1;
+     -webkit-column-gap:4em; /* Chrome, Safari, Opera */
+    -moz-column-gap: 4em; /* Firefox */
+    column-gap: 4em;
+
+}
+
+/*gallery*/
+
+.figure {
+	float: left;
+	font-size: 10px;
+	line-height: 1.1;
+	margin: 0 3.317535545023696682% 1.5em 0;			/* 21px / 633px */
+	text-align: center;
+	width: 31.121642969984202211%;				/* 197px / 633px */
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.figure img {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);;
+	display: block;
+	margin: 0 auto 1em;
+}
+
+    li#f-mycroft,
+    li#f-winter {
+	margin-right: 0;
+}
+@media screen and (max-width:680px) {
+
+    ul.topnav li {
+        display: none;
+    }
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+
+}
+
+					
+
+@media screen and (max-width:680px) {
+    ul.topnav.responsive {
+        position: relative;
+    }
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+  
+}
+
+/* tablet */
+
+@media screen and (min-width:681px) and (max-width:1024px) {
+  
+   .row{
+        width: 42.5%;
+        float:left;
+        margin:0 5%;
+    }
+    .left{
+       margin-left:0;
+    }
+    ul.topnav li{
+        margin:1% 6% 1% 6%;
+        
+    }
+      h1{
+        margin-top: 12%;
+        
+    }
+  
+    /*contact page*/
+    .contact-column {
+ 
+	column-count: 2;
+        
+
+
+    }
+    
+    iframe{
+
+        width: 100%;
+        height:25em;
+        border: 0;
+        margin: 5% 0;
+
+    }
+
+      /*about */
+  .about-column {
+      
+	column-count: 2;
+    
+    }
+
+}
+/*gallery*/
+	.figure,
+	li#f-mycroft {
+		margin-right: 3.317535545023696682%;	/* 21px / 633px */
+		width: 48.341232227488151658%;	/* 306px / 633px */
+	}
+	li#f-watson,
+	li#f-moriarty {
+		margin-right: 0;
+	}
+
+/* desktop */
+
+@media screen and (min-width:1025px) {
+  
+     .row{
+        width:21.5%;
+        float:left;
+    }
+    .col-4{
+        margin:2.8%;
+    }
+    .right{
+        margin-right:0;
+    }
+     ul.topnav li{
+        margin:1% 8% 1% 8%;
+        
+    }
+  
+
+      h1{
+        margin-top: 10%;
+        
+    }
+    /*about */
+  .about-column {
+      
+	column-count: 2;
+    
+    }
+    
+     /*contact*/
+
+    
+     .contact-column {
+     
+	column-count: 2;
+
+      padding:0 5%;
+    }
+     
+    iframe{
+
+        width: 100%;
+        height:28em;
+        border: 0;
+        margin: 5% 0;
+
+    }
+
+    /*gallery*/
+    
+    .figure,
+	li#f-mycroft {
+		margin-right: 3.317535545023696682%;			/* 21px / 633px */
+		width: 13.902053712480252764%;				/* 88px / 633px */
+	}
+    
+    
+    
+    
+    
+    
+    
+    
+    
