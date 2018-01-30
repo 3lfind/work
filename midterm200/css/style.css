@@ -1,0 +1,79 @@
+.navbar-brand{
+	background-image:url(../image/logo1.jpg);
+	background-repeat:no-repeat;
+    background-size: contain;
+	width:100%;
+}
+
+a{
+    font-family:monospace;
+    font-size: 18px;
+    color: #223825;
+    
+}
+
+body{
+    
+    background-image: url(../image/backgound1.jpg);
+    
+   background-size:auto;
+    background-attachment: fixed;
+}
+
+
+
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #BDBDBD;
+    margin:0 0 25px;
+
+}
+
+
+
+h1,h2,h3 {
+	margin:0 0 35px 0;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing:1px;
+    color: #DBDBDB;
+}
+
+h1{
+    text-align: center;
+    color: #575757;
+}
+
+
+#contact{
+	background:#333333;
+	color:#DBDBDB;
+	padding-bottom:20px;
+}
+
+textarea.form-control{
+    height:100px;
+}
+
+#line{
+    
+	border-top:10px;
+    padding-bottom: 100px;
+}
+
+#artist{
+    border-top:10px;
+    padding-bottom: 100px;
+}
+
+#info{
+     border-top:10px;
+    padding-bottom: 100px;
+}
+
+#ticket{
+     
+     border-top:10px;
+    padding-bottom: 100px;
+}
