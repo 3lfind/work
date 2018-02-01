@@ -98,8 +98,6 @@ footer{
     padding-top: 7%;
 }
 
-
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 38em;
@@ -333,6 +331,14 @@ iframe{
         margin-top: 12%;
         
     }
+	.colFoo{
+	float: left;
+	width: 50%;
+}
+.colFoo1{
+	float: right;
+}
+
   
     /*contact page*/
     .contact-column {
@@ -399,6 +405,14 @@ iframe{
 	li#f-moriarty {
 		margin-right: 2%;
 	}
+	.colFoo{
+	float: left;
+	width: 50%;
+}
+.colFoo1{
+	float: right;
+}
+
 
     /*about */
   .about-column {
