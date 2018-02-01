@@ -99,6 +99,7 @@ footer{
 }
 
 
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 38em;
@@ -274,6 +275,9 @@ iframe{
     li#f-mycroft,
     li#f-winter {
 	margin-right: 0;
+		}
+.workShow{
+	list-style-type: none;
 }
 @media screen and (max-width:680px) {
 
@@ -294,7 +298,7 @@ iframe{
         position: relative;
     }
     ul.topnav.responsive li.icon {
-        position: absolute;
+        position: absolute; 
         right: 0;
         top: 0;
     }
@@ -385,12 +389,17 @@ iframe{
         margin:1% 8% 1% 8%;
         
     }
-  
-
       h1{
         margin-top: 10%;
         
     }
+.figure,
+
+		li#f-watson,
+	li#f-moriarty {
+		margin-right: 2%;
+	}
+
     /*about */
   .about-column {
       
